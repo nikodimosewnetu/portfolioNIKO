@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import LMS from "../../Assets/Projects/LMS.png";
-import Chat from "../../Assets/Projects/chat.png";
-import vimbai from "../../Assets/Projects/vimbai.png";
+import LMS from "../../Assets/Projects/LMS.png.png";
+import Chat from "../../Assets/Projects/chat.png.png";
+import vimbai from "../../Assets/Projects/vimbai.png.png";
 
 
 function Projects() {
