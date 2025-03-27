@@ -2,8 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import chatify from "../../Assets/Projects/chatify.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import LMS from "../../Assets/Projects/LMS.png";
+import Chat from "../../Assets/Projects/chat.png";
+import vimbai from "../../Assets/Projects/vimbai.png";
+
 
 function Projects() {
   return (
@@ -19,23 +21,33 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={LMS}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              title="Learning-management-system"
+              description="A Learning Management System (LMS) built using the MERN stack, enabling efficient course management and user interaction."
+             
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Chat}
+              isBlog={false}
+              title="CHAT-APP"
+              description="A real-time chat app built with the MERN stack, enabling seamless messaging and user interaction."
+             
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={vimbai}
+              isBlog={false}
+              title="Agency website"
+              description="A visually stunning website built with Framer, offering smooth interactions and responsive design."
              
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={bitsOfCode}
-              isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-             
-            />
-          </Col>
+          
 
           
 
